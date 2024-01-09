@@ -2,7 +2,7 @@ import streamlit as st
 import openai
 
 # Set your OpenAI API key here
-openai.api_key = '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'
+openai.api_key = 'PRIVATE KEY HERE'
 
 
 def generate_sql_query(prompt):
