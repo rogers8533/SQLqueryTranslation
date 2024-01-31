@@ -7,7 +7,7 @@ openai.api_key = 'PRIVATE KEY HERE'
 
 def generate_sql_query(prompt):
     response = openai.Completion.create(
-        engine="text-davinci-003",  # Use GPT-3.5 Turbo engine
+        engine="gpt-3.5-turbo-instruct",  # Use GPT-3.5 Turbo engine
         prompt=prompt,
         max_tokens=50,  # Adjust as needed
         stop=None  # Let the model decide when to stop
